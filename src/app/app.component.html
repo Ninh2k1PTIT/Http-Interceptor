@@ -1,0 +1,11 @@
+<hello name="{{ name }}"></hello>
+<div>
+  <button (click)="test1()">Lấy dữ liệu</button>
+</div>
+<div>
+  <button (click)="test2()">Lỗi 404</button>
+</div>
+
+<ul *ngFor="let i of data">
+  <li>{{ i.name }}</li>
+</ul>
